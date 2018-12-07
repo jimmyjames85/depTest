@@ -3,11 +3,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:bf58c23ca9d56bef85bf354d8081a3db7ddca808299d7d7e9bf0c24dbb4ebfa7"
+  digest = "1:7635587be28b2ab71bc73b631c9749f285c2a287ca7743c4da490a94dfc09b61"
   name = "github.com/jimmyjames85/depOne"
   packages = ["."]
   pruneopts = "UT"
-  revision = "fbf5aa8dbde49c3d0d07e51f73d0baeafab9135c"
+  revision = "d2d456a08ba873ec4dccf524c61da6e5de486f0f"
 
 [[projects]]
   branch = "master"
