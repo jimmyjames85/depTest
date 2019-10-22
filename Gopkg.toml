@@ -29,9 +29,9 @@
   branch = "master"
   name = "github.com/jimmyjames85/depOne"
 
-[[constraint]]
-  branch = "master"
-  name = "github.com/jimmyjames85/depTwo"
+# [[constraint]]
+#   branch = "master"
+#   name = "github.com/jimmyjames85/depTwo"
 
 [prune]
   go-tests = true
