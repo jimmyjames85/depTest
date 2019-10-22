@@ -9,9 +9,20 @@
   pruneopts = "UT"
   revision = "d2d456a08ba873ec4dccf524c61da6e5de486f0f"
 
+[[projects]]
+  branch = "master"
+  digest = "1:209378ce12b143c1f13059c091c043b1d39dc2d83d76a6375a9df6d99ad2a6c1"
+  name = "github.com/jimmyjames85/depTwo"
+  packages = ["pkg"]
+  pruneopts = "UT"
+  revision = "10f43f7da9fc038549d11d7d1c4a65388184ee8b"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/jimmyjames85/depOne"]
+  input-imports = [
+    "github.com/jimmyjames85/depOne",
+    "github.com/jimmyjames85/depTwo/pkg",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
